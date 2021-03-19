@@ -11,8 +11,8 @@ do
       if [ $reminder -ne 0 ]
       then
           echo -e "\t$index is A \e[35modd Number\e[0m"
-      else 
-          echo -e "\t$index is A \e[36mEven Number\e[0m"
+      #else 
+      #    echo -e "\t$index is A \e[36mEven Number\e[0m"
       fi
       
     index=$(($index + 1))
