@@ -8,7 +8,7 @@ while [ $i -le $n ]
 do 
   if [ `expr $i % 2` -eq 0 ]
   then
-    #echo -e "\t$i is Even Number"
+    echo -e "\t$i is Even Number" &>/dev/nill
   else
     echo -e "\t$i is Odd Number"   
   fi
